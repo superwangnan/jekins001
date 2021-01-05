@@ -1,6 +1,6 @@
-general:
-  buildTool: 'maven'
+# general:
+#   buildTool: 'maven'
 
-steps:
-  build:
-    - mvn clean install
+# stages::
+#   build:
+#     - mvn clean install
