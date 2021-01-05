@@ -1,4 +1,4 @@
-package jekins-test;
+package jekins;
 
 import org.junit.Test;
 

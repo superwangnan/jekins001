@@ -1,4 +1,4 @@
-package jekins-test;
+package jekins;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,8 +8,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.sap.cloud.sdk", "jekins-test"})
-@ServletComponentScan({"com.sap.cloud.sdk", "jekins-test"})
+@ComponentScan({"com.sap.cloud.sdk", "jekins"})
+@ServletComponentScan({"com.sap.cloud.sdk", "jekins"})
 public class Application extends SpringBootServletInitializer
 {
     @Override

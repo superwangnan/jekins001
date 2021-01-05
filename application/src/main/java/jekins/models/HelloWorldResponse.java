@@ -1,7 +1,8 @@
-package jekins-test.models;
+package jekins.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+@SuppressWarnings("PMD.UnusedPrivateField")
 public class HelloWorldResponse
 {
     @JsonProperty("hello")
